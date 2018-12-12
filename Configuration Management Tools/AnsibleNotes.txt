@@ -1,0 +1,17 @@
+Few links to get started: 
+• https://www.softwaretestinghelp.com/ansible-tutorial-1/
+• https://serversforhackers.com/c/an-ansible-tutorial
+
+Ansible is an open-source tool that helps in task automation, application deployment, cloud provisioning and configuration management. 
+
+Ansible ensures maintaining exact versions and up to date information to the software packages.
+
+For Example,  if you want to install JDK 8 or Tomcat or any other software package in 10 or 20 different machines it is not actually feasible to go to all the machines and install them rather use Ansible to automate the installation or even software deployments using Playbooks and Inventory written in a very simple language called YAML (Yet Another Markup Language).
+
+Ansible consists of three main components: 
+1) CONTROL MACHINE - It manages execution of Playbook. It can be installed on laptop or any machine on the internet. 
+2) INVENTORY - This file provides a complete list of all the target machines on which various modules are run by doing an ssh connection and install the necessary softwares.
+3) PLAYBOOK - It consists of steps that the control mechanism will perform on the servers defined in the inventory file.
+
+Note that Ansible interacts with all the servers defined in the inventory through the SSH protocol which is a secure method of remote login. Every operation is done and file transfer is encrypted.
+Also, the control machine has to be a Linux machine. Windows machine can't be a control machine. 
