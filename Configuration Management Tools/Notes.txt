@@ -1,0 +1,6 @@
+Chef vs Puppet vs Ansible vs Vagrant
+
+All of these are Configuration Management tools. Use https://www.quora.com/What-is-difference-between-docker-puppet-chef-and-vagrant to begin understanding differences among these tools. 
+Another good link to begin reading about the differences is https://www.edureka.co/blog/chef-vs-puppet-vs-ansible-vs-saltstack/?utm_source=quora&utm_medium=crosspost&utm_campaign=social-media-edureka-dec-aj
+
+Briefly they're all tools for IT automation. 
